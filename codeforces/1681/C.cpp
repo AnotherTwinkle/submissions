@@ -38,8 +38,9 @@ int main() {
 		for(int i = 1; i < n; i++) {
 			int j = i;
 			while(a[j] < a[j-1] && j > 0) {
-				swap(a[j], a[j-1]);
-				swap(b[j], b[j-1]);
+				int x = a[j]; int y = b[j];
+				a[j] = a[j-1]; a[j-1] = x;
+				b[j] = b[j-1]; b[j-1] = y;
 				m.push_back(j);
 				j--;
 			}
@@ -51,7 +52,8 @@ int main() {
 			for(int k = i+1; k < i+j+1; k++) {
 				int l = k;
 				while(b[l] < b[l-1] && l > i) {
-					swap(b[l], b[l-1]);
+					int x = b[l];
+					b[l] = b[l-1]; b[l-1] = x;
 					m.push_back(l);
 					l--;
 				}
