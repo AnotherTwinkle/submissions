@@ -18,7 +18,6 @@ typedef vector<pll> vpll;
 #define sz(x) (int)(x).size()
 #define ff first
 #define ss second
-#define ctz(x) (ll)__builtin_ctz((x))
 
 const long long llzero = 0;
 
@@ -39,7 +38,7 @@ int main() {
 			ll x; cin >> x;
 			if(x%2==0) {
 				e.push_back(x);
-				el = min(ctz(x), el);
+				if(log2(x & -x) < el) el = log2(x & -x);
 			}
 			else o.push_back(x);
 		}
