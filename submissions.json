@@ -1,4 +1,21 @@
 {
+  "CF161575847": {
+    "contest_id": 1682,
+    "language": "GNU C++17",
+    "path": "codeforces\\1682\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Palindromic Indices",
+    "problem_url": "https://codeforces.com/contest/1682/problem/A",
+    "submission_id": "CF161575847",
+    "submission_url": "https://codeforces.com/contest/1682/submission/161575847",
+    "tags": [
+      "greedy",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jun/23/2022 23:03"
+  },
   "CF161582358": {
     "contest_id": 1682,
     "language": "GNU C++17",
