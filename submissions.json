@@ -1,4 +1,21 @@
 {
+  "CF162380887": {
+    "contest_id": 1672,
+    "language": "GNU C++17",
+    "path": "codeforces\\1672\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "I love AAAB",
+    "problem_url": "https://codeforces.com/contest/1672/problem/B",
+    "submission_id": "CF162380887",
+    "submission_url": "https://codeforces.com/contest/1672/submission/162380887",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/01/2022 03:16"
+  },
   "CF162465402": {
     "contest_id": 1676,
     "language": "GNU C++17",
