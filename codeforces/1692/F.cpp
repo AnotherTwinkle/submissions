@@ -20,12 +20,14 @@ void solve() {
 		}
 	}
 
+	for(int i : v) std::cerr << i << " ";
+
 	int s = v.size();
 	for (int i = 0; i < s; i++) {
 		for (int j = 0; j < s; j++) {
 			for (int k = 0; k < s; k++) {
 				if (i == j || j == k || i == k) continue;
-				if ((v[i] + v[j] + v[k]) % 10 == 3) {
+				if (std::to_string(v[i] + v[j] + v[k]).back() == '3') {
 					std::cout << "YES\n";
 					return;
 				}
