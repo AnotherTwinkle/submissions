@@ -1,4 +1,20 @@
 {
+  "CF163270957": {
+    "contest_id": 1701,
+    "language": "GNU C++17",
+    "path": "codeforces\\1701\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Grass Field",
+    "problem_url": "https://codeforces.com/contest/1701/problem/A",
+    "submission_id": "CF163270957",
+    "submission_url": "https://codeforces.com/contest/1701/submission/163270957",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/08/2022 21:33"
+  },
   "CF163284642": {
     "contest_id": 1701,
     "language": "GNU C++17",
