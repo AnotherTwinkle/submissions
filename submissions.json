@@ -1,4 +1,21 @@
 {
+  "CF163694459": {
+    "contest_id": 1530,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1530\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Putting Plates",
+    "problem_url": "https://codeforces.com/contest/1530/problem/B",
+    "submission_id": "CF163694459",
+    "submission_url": "https://codeforces.com/contest/1530/submission/163694459",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/11/2022 21:46"
+  },
   "CF163720309": {
     "contest_id": 1530,
     "language": "GNU C++17",
