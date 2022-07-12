@@ -1,4 +1,23 @@
 {
+  "CF163796359": {
+    "contest_id": 1669,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1669\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Odd/Even Increments",
+    "problem_url": "https://codeforces.com/contest/1669/problem/C",
+    "submission_id": "CF163796359",
+    "submission_url": "https://codeforces.com/contest/1669/submission/163796359",
+    "tags": [
+      "greedy",
+      "greedy",
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jul/12/2022 19:03"
+  },
   "CF163829167": {
     "contest_id": 1703,
     "language": "PyPy 3-64",
