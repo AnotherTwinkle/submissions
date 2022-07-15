@@ -1,4 +1,21 @@
 {
+  "CF164268941": {
+    "contest_id": 1705,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1705\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Mark the Photographer",
+    "problem_url": "https://codeforces.com/contest/1705/problem/A",
+    "submission_id": "CF164268941",
+    "submission_url": "https://codeforces.com/contest/1705/submission/164268941",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*800"
+    ],
+    "timestamp": "Jul/15/2022 19:39"
+  },
   "CF164360952": {
     "contest_id": 1559,
     "language": "GNU C++20 (64)",
