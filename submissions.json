@@ -1,4 +1,21 @@
 {
+  "CF164505162": {
+    "contest_id": 1708,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1708\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Difference of GCDs",
+    "problem_url": "https://codeforces.com/contest/1708/problem/B",
+    "submission_id": "CF164505162",
+    "submission_url": "https://codeforces.com/contest/1708/submission/164505162",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Jul/16/2022 21:43"
+  },
   "CF164547737": {
     "contest_id": 1604,
     "language": "GNU C++20 (64)",
