@@ -1,4 +1,21 @@
 {
+  "CF165445270": {
+    "contest_id": 1539,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1539\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Stable Groups",
+    "problem_url": "https://codeforces.com/contest/1539/problem/C",
+    "submission_id": "CF165445270",
+    "submission_url": "https://codeforces.com/contest/1539/submission/165445270",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Jul/23/2022 22:01"
+  },
   "CF170585811": {
     "contest_id": 1694,
     "language": "GNU C++20 (64)",
