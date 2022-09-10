@@ -1,4 +1,22 @@
 {
+  "CF171651644": {
+    "contest_id": 1607,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1607\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Blue-Red Permutation",
+    "problem_url": "https://codeforces.com/contest/1607/problem/D",
+    "submission_id": "CF171651644",
+    "submission_url": "https://codeforces.com/contest/1607/submission/171651644",
+    "tags": [
+      "greedy",
+      "math",
+      "sortings",
+      "*1300"
+    ],
+    "timestamp": "Sep/11/2022 01:31"
+  },
   "CF171843427": {
     "contest_id": 1729,
     "language": "GNU C++20 (64)",
