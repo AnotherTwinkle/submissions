@@ -1,4 +1,20 @@
 {
+  "CF171642941": {
+    "contest_id": 1607,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1607\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Odd Grasshopper",
+    "problem_url": "https://codeforces.com/contest/1607/problem/B",
+    "submission_id": "CF171642941",
+    "submission_url": "https://codeforces.com/contest/1607/submission/171642941",
+    "tags": [
+      "math",
+      "*900"
+    ],
+    "timestamp": "Sep/10/2022 23:43"
+  },
   "CF171645440": {
     "contest_id": 1607,
     "language": "GNU C++20 (64)",
