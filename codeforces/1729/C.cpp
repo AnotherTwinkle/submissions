@@ -16,7 +16,8 @@ void solve() {
         }
     }
 
-    std::sort(v.begin(), v.end(), [&](pii a, pii b) {return x < y ? a.first < b.first : a.first > b.first;});
+    if (x < y) std::sort(v.begin(), v.end(), [&](pii a, pii b) {return a.first < b.first;});
+    else std::sort(v.begin(), v.end(), [&](pii a, pii b) {return a.first > b.first;});
 
     for (int i = 0; i < v.size(); i++) {
         if (v[i].second == 0) std::swap(v[i], v[0]);
