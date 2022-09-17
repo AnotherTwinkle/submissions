@@ -1,4 +1,21 @@
 {
+  "CF172484913": {
+    "contest_id": 1720,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1720\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Corners",
+    "problem_url": "https://codeforces.com/contest/1720/problem/C",
+    "submission_id": "CF172484913",
+    "submission_url": "https://codeforces.com/contest/1720/submission/172484913",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Sep/17/2022 23:37"
+  },
   "CF172554609": {
     "contest_id": 1717,
     "language": "GNU C++20 (64)",
