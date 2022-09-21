@@ -9,7 +9,7 @@ void solve() {
     for (int i = 0; i < n; i++) {
         r += (s[i] == 'R'), b += (s[i] == 'B');
         if ((s[i] == 'W' || i == n - 1)) {
-            if ((r || b) && !(r && b)) {
+            if ((r || b) && (r + b == std::max(r, b))) {
                 std::cout << "NO\n";
                 return;   
             } else {
