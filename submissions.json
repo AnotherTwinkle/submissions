@@ -1,4 +1,22 @@
 {
+  "CF172928630": {
+    "contest_id": 1675,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1675\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Vertical Paths",
+    "problem_url": "https://codeforces.com/contest/1675/problem/D",
+    "submission_id": "CF172928630",
+    "submission_url": "https://codeforces.com/contest/1675/submission/172928630",
+    "tags": [
+      "graphs",
+      "implementation",
+      "trees",
+      "*1300"
+    ],
+    "timestamp": "Sep/21/2022 16:38"
+  },
   "CF172944982": {
     "contest_id": 1669,
     "language": "GNU C++20 (64)",
