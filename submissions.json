@@ -1,4 +1,22 @@
 {
+  "CF173363158": {
+    "contest_id": 1237,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1237\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Balanced Tunnel",
+    "problem_url": "https://codeforces.com/contest/1237/problem/B",
+    "submission_id": "CF173363158",
+    "submission_url": "https://codeforces.com/contest/1237/submission/173363158",
+    "tags": [
+      "data structures",
+      "sortings",
+      "two pointers",
+      "*1300"
+    ],
+    "timestamp": "Sep/25/2022 01:57"
+  },
   "CF173363226": {
     "contest_id": 1237,
     "language": "GNU C++20 (64)",

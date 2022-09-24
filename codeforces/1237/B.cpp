@@ -5,7 +5,7 @@ void solve() {
     int n;
     std::cin >> n;
     std::vector<int> a(n), b(n);
-    std::vector<bool> o(n);
+    std::map<int, bool> o;
     for (int i = 0; i < n; i++) {
         std::cin >> a[i];
     }
