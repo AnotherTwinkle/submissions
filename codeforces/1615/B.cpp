@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using ll = long long;
 
-int pre[21][200005];
+std::vector<std::vector<int>> pre(21, std::vector<int>(2e5 + 1));
 void precompute() {
     for (int i = 20; i >= 0; i--) {
         int res = 0;
