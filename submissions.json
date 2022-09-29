@@ -1,4 +1,21 @@
 {
+  "CF174022654": {
+    "contest_id": 1375,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1375\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Neighbor Grid",
+    "problem_url": "https://codeforces.com/contest/1375/problem/B",
+    "submission_id": "CF174022654",
+    "submission_url": "https://codeforces.com/contest/1375/submission/174022654",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "Sep/30/2022 03:35"
+  },
   "CF174068962": {
     "contest_id": 1401,
     "language": "GNU C++20 (64)",
