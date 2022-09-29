@@ -8,8 +8,10 @@ void solve() {
     if (std::min(n, m) == 1) {
         std::cout << n << ' ' << m << '\n';
     }
-    else {
+    else if (n <= 3 && m <= 3) {
         std::cout << 2 << ' ' << 2 << '\n';
+    } else {
+        std::cout << n << ' ' << m << '\n';
     }
 }
 
