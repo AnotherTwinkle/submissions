@@ -1,4 +1,23 @@
 {
+  "CF174167059": {
+    "contest_id": 1738,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1738\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Prefix Sum Addicts",
+    "problem_url": "https://codeforces.com/contest/1738/problem/B",
+    "submission_id": "CF174167059",
+    "submission_url": "https://codeforces.com/contest/1738/submission/174167059",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "sortings",
+      "*1200"
+    ],
+    "timestamp": "Oct/01/2022 00:51"
+  },
   "CF174274528": {
     "contest_id": 1530,
     "language": "GNU C++20 (64)",
