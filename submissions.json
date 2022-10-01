@@ -1,4 +1,24 @@
 {
+  "CF174274528": {
+    "contest_id": 1530,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1530\\D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Secret Santa",
+    "problem_url": "https://codeforces.com/contest/1530/problem/D",
+    "submission_id": "CF174274528",
+    "submission_url": "https://codeforces.com/contest/1530/submission/174274528",
+    "tags": [
+      "constructive algorithms",
+      "flows",
+      "graphs",
+      "greedy",
+      "math",
+      "*1600"
+    ],
+    "timestamp": "Oct/01/2022 22:26"
+  },
   "CF174278431": {
     "contest_id": 1618,
     "language": "GNU C++20 (64)",
