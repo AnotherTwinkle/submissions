@@ -11,10 +11,11 @@ void solve() {
     }
 
     int l = 0, r = 0, sum = v[r];
-    while (r < n - 1 && (sum != k || !v[r + 1])) {
+    while (r < n - 1 && sum != k) {
         r++;
         sum += v[r];
     }
+    while (r < n - 1 && !v[r + 1]) r++;
 
     if (sum != k) {
         std::cout << "-1\n";
