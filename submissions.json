@@ -1,4 +1,21 @@
 {
+  "CF175276556": {
+    "contest_id": 1679,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1679\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Rooks Defenders",
+    "problem_url": "https://codeforces.com/contest/1679/problem/C",
+    "submission_id": "CF175276556",
+    "submission_url": "https://codeforces.com/contest/1679/submission/175276556",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Oct/10/2022 00:27"
+  },
   "CF175450331": {
     "contest_id": 1736,
     "language": "GNU C++20 (64)",
