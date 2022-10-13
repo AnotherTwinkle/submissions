@@ -1,4 +1,20 @@
 {
+  "CF175988478": {
+    "contest_id": 1742,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1742\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Stripes",
+    "problem_url": "https://codeforces.com/contest/1742/problem/C",
+    "submission_id": "CF175988478",
+    "submission_url": "https://codeforces.com/contest/1742/submission/175988478",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Oct/13/2022 21:45"
+  },
   "CF176023928": {
     "contest_id": 1742,
     "language": "GNU C++20 (64)",
