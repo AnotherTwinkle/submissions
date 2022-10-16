@@ -12,7 +12,12 @@ void solve() {
         o += v[i]; 
     }
 
-    std::cout << std::count(v.rbegin(), v.rbegin() + o, 0) << '\n';
+    int ans = 0;
+    for (int i = n - 1; i >= n - o; i--) {
+        if (!v[i]) ans++;
+    }
+
+    std::cout << ans << '\n';
 }
 
 int main() {
