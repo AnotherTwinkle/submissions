@@ -1,4 +1,23 @@
 {
+  "CF176489790": {
+    "contest_id": 1746,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1746\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Permutation Operations",
+    "problem_url": "https://codeforces.com/contest/1746/problem/C",
+    "submission_id": "CF176489790",
+    "submission_url": "https://codeforces.com/contest/1746/submission/176489790",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "implementation",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Oct/16/2022 18:45"
+  },
   "CF176512586": {
     "contest_id": 1744,
     "language": "GNU C++20 (64)",
