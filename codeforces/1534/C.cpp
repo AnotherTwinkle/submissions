@@ -20,11 +20,15 @@ void solve() {
         if (done[i]) continue;
 
         int x = i;
-        while (!done[x]) {
-            done[x] = 1;
+        for (int j = 0; ; j++) {
             x = a[x];
+            if (done[x]) {
+                ans *= 2;
+                ans %= MOD;
+                break;
+            }
+            done[x] = 1;
         }
-        ans = 2 * ans % MOD;
     }
 
     std::cout << ans << '\n';
