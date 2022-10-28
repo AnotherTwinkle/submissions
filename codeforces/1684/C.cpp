@@ -13,52 +13,64 @@ void solve() {
         }
     }
 
-    pair last = {-1, -1};
-    std::vector<int> u;
+    std::vector<int> p(m);
+    std::iota(p.begin(), p.end(), 0);
+
+    pair check;
+    check[0] = check[1] = -1;
+
+    std::vector<bool> done(n);
     for (int i = 0; i < n; i++) {
-        std::vector<int> swap, dup(grid[i].begin(), grid[i].end());
+        std::vector<int> dup(grid[i].begin(), grid[i].end());
         std::sort(dup.begin(), dup.end());
+
+        pair temp;
+        int cnt = 0;
         for (int j = 0; j < m; j++) {
-            if (dup[j] != grid[i][j]) swap.push_back(j);
+            if (dup[j] != grid[i][j]) {
+                if (cnt > 1) {
+                    std::cout << "-1\n";
+                    return;
+                }
+
+                temp[cnt] = j;
+                cnt++;
+                done[i] = 1;
+            }
         }
 
-        if (swap.size() > 2) {
-            std::cout << "-1\n";
-            return;
-        }
-
-        if (swap.empty()) {
-            u.push_back(i);
-            continue;
-        } else if (last[0] != -1 && (last[0] != swap[0] || last[1] != swap[1])) {
-            std::cout << "-1\n";
-            return;
-        }
-
-        last[0] = swap[0]; last[1] = swap[1];
-
-    }
-
-    last[0] = std::max(0, last[0]), last[1] = std::max(0, last[1]);
-
-    for (int i : u) {
-        if (grid[i][last[0]] != grid[i][last[1]]) {
-            std::cout << "-1\n";
-            return;
+        if (cnt) {
+            if (temp[0] > temp[1]) std::swap(temp[0], temp[1]);
+            if (check[0] >= 0) {
+                if (check[0] != temp[0] || check[1] != temp[1]) {
+                    std::cout << "-1\n";
+                    return;
+                }
+            } else {
+                check[0] = temp[0];
+                check[1] = temp[1];
+            } 
         }
     }
 
-    std::cout << (last[0] + 1) << ' ' << (last[1] + 1) << '\n';
+    for (int i = 0; i < n; i++) {
+        if (!done[i] && check[0] >= 0) {
+            if (grid[i][check[0]] != grid[i][check[1]]) {
+                std::cout << "-1\n";
+                return;
+            }
+        }
+    }
 
+    std::cout << (std::max(check[0], 0) + 1) << " " << (std::max(check[1], 0) + 1) << '\n';
 }
 
 int main() {
     std::ios::sync_with_stdio(false);
-    std::cin.tie(0);
+    std::cin.tie(nullptr);
 
     int t;
     std::cin >> t;
-
     while (t--) {
         solve();
     }
