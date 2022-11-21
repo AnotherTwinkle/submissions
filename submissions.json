@@ -1,4 +1,22 @@
 {
+  "CF181979734": {
+    "contest_id": 1760,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1760\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Binary Inversions",
+    "problem_url": "https://codeforces.com/contest/1760/problem/E",
+    "submission_id": "CF181979734",
+    "submission_url": "https://codeforces.com/contest/1760/submission/181979734",
+    "tags": [
+      "data structures",
+      "greedy",
+      "math",
+      "*1100"
+    ],
+    "timestamp": "Nov/21/2022 21:39"
+  },
   "CF182037949": {
     "contest_id": 1760,
     "language": "GNU C++20 (64)",
