@@ -1,4 +1,22 @@
 {
+  "CF181900810": {
+    "contest_id": 1760,
+    "language": "GNU C++20 (64)",
+    "path": "codeforces\\1760\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Atilla's Favorite Problem",
+    "problem_url": "https://codeforces.com/contest/1760/problem/B",
+    "submission_id": "CF181900810",
+    "submission_url": "https://codeforces.com/contest/1760/submission/181900810",
+    "tags": [
+      "greedy",
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Nov/21/2022 20:38"
+  },
   "CF181911710": {
     "contest_id": 1760,
     "language": "GNU C++20 (64)",
